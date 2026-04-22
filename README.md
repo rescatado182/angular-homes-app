@@ -1,32 +1,47 @@
-🏡 Angular Homes App
+# **🏡 Angular Homes App**
 
 A modern Angular application for browsing and exploring housing listings.
 Built as part of a hands-on learning project, focused on clean structure, scalability, and frontend best practices.
 
-✨ Features
-📋 List of available homes
-🔍 Property details view
-⚡ Reactive UI with Angular
-🧩 Component-based architecture
-🔌 Service layer for data handling
-🚦 Routing between views
-🧱 Tech Stack
+## ✨ **Features**
+
+* 📋 List of available homes
+* 🔍 Property details view
+* ⚡ Reactive UI with Angular
+* 🧩 Component-based architecture
+* 🔌 Service layer for data handling
+* 🚦 Routing between views
+
+## **🧱 Tech Stack**
+
 Frontend: Angular
 Language: TypeScript
 Styling: CSS
 Tooling: Angular CLI
-🚀 Getting Started
+
+### **🚀 Getting Started**
+
 Prerequisites
 Node.js (LTS recommended)
 npm
 Angular CLI
+
+```npm
 npm install -g @angular/cli
-Installation
-git clone -b homes-app-start git@github.com:angular/codelabs.git homes-app
+```
+
+#### Installation
+
+```git
 cd homes-app
 npm install
-Run the App
+```
+
+#### Run the App
+
+```
 ng serve
+```
 
 Open your browser at:
 
@@ -34,14 +49,15 @@ Open your browser at:
 
 🏗️ Project Structure
 src/
- ├── app/
- │   ├── components/     # UI components
- │   ├── services/       # Business logic & data access
- │   ├── models/         # Interfaces and types
- │   └── app.module.ts   # Root module
- ├── assets/
- └── index.html
-🧠 Architecture Notes
+├── app/
+│   ├── components/     # UI components
+│   ├── services/       # Business logic & data access
+│   ├── models/         # Interfaces and types
+│   └── app.module.ts   # Root module
+├── assets/
+└── index.html
+
+#### 🧠 Architecture Notes
 
 This project follows a modular and scalable structure:
 
@@ -51,13 +67,18 @@ Models define strong typing using TypeScript interfaces
 
 This separation improves:
 
-Maintainability
-Testability
-Reusability
-🧪 Testing
-ng test
-📦 Build
-ng build
+* Maintainability
+* Testability
+* Reusability
+
+### 🧪 Testing
+
+`ng test`
+
+### 📦 Build
+
+`ng build`
+
 📌 Future Improvements
 ✅ Connect to a real backend API (Laravel / .NET)
 🔐 Add authentication & authorization
@@ -66,7 +87,6 @@ ng build
 🎨 Improve UI/UX design
 📷 Screenshots
 
-(Add screenshots here to make your repo stand out)
 
 🤝 Contributing
 
@@ -75,3 +95,4 @@ Feel free to fork this project and submit improvements.
 📄 License
 
 This project is for educational purposes.
+
